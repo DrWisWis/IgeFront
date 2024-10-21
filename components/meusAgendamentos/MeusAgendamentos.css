@@ -1,0 +1,22 @@
+.meus-agendamentos-box {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+  }
+  
+  .agendamentos-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .agendamento-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agendamento-item p {
+    margin: 0.5rem 0;
+  }

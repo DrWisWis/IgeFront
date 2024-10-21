@@ -1,0 +1,100 @@
+.sidebar-cliente {
+    position: fixed;
+    width: 100px;
+    height: 100vh;
+    background-color: black;
+    padding: 1rem;
+    box-sizing: border-box;
+    color: white;
+    overflow: hidden;
+    border-radius: 1rem 1rem 1rem 1rem;
+    transition: .75s ease;
+}
+
+.sidebar-cliente:hover {
+    width: 360px;
+    z-index: 1;
+}
+
+.sidebar-cliente .logo-side-ige {
+    display: flex;
+    max-width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+#img-side-cliente {
+    width: 80px;
+    height: 80px;
+}
+
+.side-cliente {
+    display: grid;
+    grid-template-columns: max-content;
+    align-items: center;
+    padding: .5rem 0 4rem 1.3rem;
+}
+
+.side-cliente .nav__link {
+    display: flex;
+    outline: none;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 80px -15px;
+    align-items: center;
+    max-height: 20px;
+    padding: 0rem 0rem;
+}
+
+.components-side-client:hover {
+    background-color: rgb(168, 168, 168);
+    width: 280px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in;
+    padding: 1rem;
+}
+
+#icon-side-cliente {
+    font-size: 30pt;
+    color: white;
+}
+
+.side-cliente .nav__link span {
+    margin: 0 auto;
+    font-weight: 600;
+    padding: 0rem 2.2rem;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.btn-login-out-cliente {
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: rgb(197, 0, 0);
+    color: white;
+    padding: .5rem 1rem;
+    border-radius: 15px;
+}
+
+.btn-login-out-cliente:hover {
+    background-color: rgb(255, 0, 0);
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.content-agendamentos {
+    display: flex;
+    justify-content: space-between;
+    margin: -900px 400px;
+    z-index: -1;
+    flex-direction: column;
+}
+
+.main {
+    display: grid;
+}

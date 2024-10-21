@@ -1,0 +1,92 @@
+box-agendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: rgba(235, 235, 235, 0);
+    padding: 4rem 2rem;
+    border-radius: 15px;
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+}
+
+.cont-agendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+.form-agendar {
+    text-align: center;
+    align-items: center;
+}
+
+.label-agendar {
+    display: flex;
+    text-align: start;
+    font-size: 40pt;
+}
+
+.input-agendar {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    width: 300px; /* Corrigido o valor 300px0 para 300px */
+    padding: 1rem 6rem;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+
+.btn-send-agendar {
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    font-size: 15pt;
+}
+
+.btn-send-agendar:hover {
+    background-color: rgb(112, 112, 112);
+    transition: all 0.3s ease-in;
+}
+
+.btn-logout-agendar {
+    border: none;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content-agendamentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    z-index: 0;
+    width: calc(100% - 100px); 
+    margin-left: 100px;
+    min-height: 100vh;
+    box-sizing: border-box; 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /* Adicionado padding para dar espaçamento interno */
+}

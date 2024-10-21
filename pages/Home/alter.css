@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.header-home {
+    background-image: url('/src/assets/header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation .logo {
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo {
+    width: 150px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul .nav-li {
+    display: flex;
+}
+
+.navigation ul li {
+    margin: 0 1rem;
+}
+
+.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #ccc;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn a {
+    margin-left: 1rem;
+}
+
+.btn button {
+    padding: 0.5rem 1rem;
+    background-color: #ffffff00;
+    color: #ffffff;
+    border: solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn button:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.slogan {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.slogan h1 {
+    font-size: 36px;
+}
+
+.desc-slogan p {
+    font-size: 18px;
+}
+
+/* Serviços */
+.services {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+.container-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.title-services h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 28px;
+}
+
+.cards-info-services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-user-left, .card-emp-right {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    flex: 1;
+    min-width: 300px;
+    max-width: 45%;
+}
+
+.card-header-left, .card-header-right {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.card-header-left img, .card-header-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-user-left h1, .card-emp-right h1 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.card-user-left p, .card-emp-right p {
+    font-size: 16px;
+}
+
+.btn-acess-services, .btn-acquire-services {
+    text-align: center;
+}
+
+.btn-acess-services button, .btn-acquire-services button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-acess-services button:hover, .btn-acquire-services button:hover {
+    background-color: #444;
+}
+
+/* Sobre nós */
+#about {
+    padding: 2rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about-data{
+    justify-content: center;
+    display: flex;
+}
+
+#about-data .data {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0 0 0;
+  }
+
+  #about-data .data i{
+    font-size: 3rem;
+  }
+
+.section-subtitle {
+    font-size: 20px;
+    color: #666;
+}
+
+.section-title {
+    font-size: 28px;
+    margin: 1rem 0;
+}
+
+.about-description {
+    margin: 1rem 0;
+}
+
+.about-description h4 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+/* Contato */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact .container-contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact .container-contact .left-contact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+}
+
+#logo-contact {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+#title-contact-center {
+    font-size: 30pt;
+    color: black;
+    text-align: center;
+}
+
+.contact .container-contact .left-contact .title-contact {
+    display: flex;
+    text-align: center;
+}
+
+.contact .container-contact .left-contact .title-contact h2 {
+    font-size: 18pt;
+    color: black;
+}
+
+.contact .container-contact .left-contact .form-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .container-contact .left-contact .form-contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .container-contact .left-contact .form-contact form label {
+    color: black;
+    font-size: 18pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact .container-contact .left-contact .form-contact form input {
+    border: none;
+    outline: none;
+    width: 100%; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+}
+
+.contact .container-contact .left-contact .form-contact form textarea {
+    flex: 0.5;
+    width: 100%; 
+    padding: 1.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px black;
+}
+
+.contact .container-contact .left-contact .form-contact form .send-btn-contact input {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 0px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+
+.contact .container-contact .left-contact .form-contact form .send-btn-contact input:hover {
+    background-color: gray;
+    color: black;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.contact .container-contact .right-contact {
+    display: flex;
+    flex-basis: 50%;
+    background-color: gray;
+}
+
+.contact .container-contact .right-contact img {
+    max-width: 100%;
+}
+
+                        /* Celular - Baixe o app*/
+
+                        .slogan h1 {
+                            color: white;
+                            font-size: 4vw; 
+                            line-height: 1.5em;
+                            max-width: 90%; 
+                            padding-left: 5vw; 
+                        }
+                        
+                        .slogan-description p {
+                            color: white;
+                            font-size: 2vw; 
+                            padding-left: 5vw;
+                        }
+                        
+                        .cellphone-content-right h1 {
+                            color: black;
+                        }
+                        
+                        .cellphone-app {
+                            background-color: rgb(240, 240, 240);
+                            color: black;
+                        }
+                        
+                        .cellphone-content {
+                            display: flex;
+                            flex-direction: column; 
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        
+                        .cellphone-content-left img {
+                            margin-left: 0; 
+                            width: 90%; 
+                            height: auto; 
+                            max-width: 600px;
+                        }
+                        
+                        .cellphone-content-right {
+                            margin-right: 0; 
+                            text-align: center; 
+                        }
+                        
+                        .cellphone-content-right img {
+                            width: 60%; 
+                            height: auto;
+                            max-width: 200px; 
+                        } 
+
+/* Footer */
+#footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 3rem 3rem;
+}
+
+#f-logo {
+    height: 100px;
+    width: 100px;
+
+}
+
+#footer i {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+#footer a {
+    color: rgb(255, 255, 255);
+}
+
+#footer a:hover {
+    color: rgb(184, 184, 184);
+    transition: ease-in-out 0.3s;
+}
+
+.contact-info,
+.links-container {
+    width: 20%;
+}
+
+.footer-brand {
+    margin-bottom: 2rem;
+}
+
+.footer-brand h2 {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+}
+
+.contact-info p i {
+    background-color: transparent;
+    padding: 0;
+}
+
+.social-networks p {
+    margin-top: 40px;
+    margin-bottom: 1rem;
+}
+
+.networks {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#footer .networks i {
+    padding: 1rem;
+    color: white;
+}
+
+#footer .networks i:hover {
+    color: rgb(184, 184, 184);
+    transition: ease-in-out 0.3s;
+}
+
+.links-container h4 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.links-container nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-container nav a {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.phone-number {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.phone-info {
+    margin-top: 0px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .cellphone-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .cellphone-content-left img {
+        margin-left: 200px;
+        width: 600px;
+        height: 600px;
+    }
+
+    .cellphone-content-right {
+        margin-right: 200px;
+    }
+}

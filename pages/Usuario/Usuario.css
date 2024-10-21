@@ -1,0 +1,120 @@
+.container-form-registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .container-form-registro .img-form-registro {
+    display: flex;
+  }
+  
+  .container-form-registro .img-form-registro img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .container-form-registro .form-registro {
+    display: flex;
+  }
+  
+  .container-form-registro .form-registro .account-left-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0rem 1rem;
+  }
+  
+  .container-form-registro form .form-registro {
+    display: flex;
+  }
+  
+  .container-form-registro form .form-registro .account-left-registro .title-rig, .left-input-registro .title-rig, 
+  .right-input-registro .title-rig {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-form-registro form .form-registro .left-input-registro {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 0rem 1rem;
+  }
+  
+  .container-form-registro form .form-registro .account-left-registro .input-registro, .left-input-registro .input-registro, 
+  .right-input-registro .input-registro {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-form-registro form .form-registro .account-left-registro .input-registro label, .left-input-registro .input-registro label,
+  .right-input-registro .input-registro label {
+    color: black;
+    font-weight: 600;
+    padding: 0.8rem 0rem;
+  }
+  
+  .container-form-registro form .form-registro .account-left-registro .input-registro input, .left-input-registro .input-registro input,
+  .right-input-registro .input-registro input, select {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 6px black;
+    border: solid 1px rgb(194, 194, 194);
+    font-size: 12pt;
+    color: rgb(80, 80, 80);
+  }
+  
+  .container-form-registro form .form-registro .right-input-registro {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 0rem 1rem;
+  }
+  
+  .btn-send-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+  }
+  
+  .btn-send-registro button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13pt;
+  }
+  
+  .btn-send-registro button:hover {
+    background-color: rgb(134, 129, 133);
+    transition: ease-in 0.3s;
+  }
+  
+  .btn-send-registro p {
+    display: flex;
+    font-size: 10pt;
+    color: black;
+  }
+  
+  .btn-send-registro p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+  }
+  
+  .btn-send-registro p a:hover {
+    color: gray;
+    transition: all ease 0.3s;
+  }
+  

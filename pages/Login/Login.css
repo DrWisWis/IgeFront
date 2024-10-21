@@ -1,0 +1,124 @@
+.login {
+    display: flex;
+  }
+  
+  .container-login {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5rem 0rem;
+  }
+  
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    padding: 5rem 5rem;
+  }
+  
+  .form-login .logo-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-login img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .form-login form {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  
+  
+  }
+  
+  .form-login form .title-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-login form .title-login h1{
+    font-size: 30pt;
+  }
+  
+  .form-login form .input-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .form-login form .input-login .input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-login form .input-login .input-box input{
+    border: 1px solid black;
+    outline: none;
+    width: 350px;
+    height: 20px;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+  }
+  
+  .form-login form .input-login .input-box label{
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 3px;
+  }
+  
+  .form-login form .btn-login {
+    text-align: center;
+  }
+  
+  .form-login form .btn-login button{
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .form-login form .btn-login button:hover{
+    background-color: rgb(80, 80, 80);
+    color: white;
+  }
+  
+  .form-login form .btn-login p {
+    font-size: 10pt;
+    color: black;
+  }
+  
+  .form-login form .btn-login p a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+  }
+  
+  .form-login form .btn-login p a:hover {
+    color: gray;
+  }
+  
+  .img-left {
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgba(128, 128, 128, 0.185);
+  }
+  
+  .img-left img {
+    width: 50vw;
+    height: 100vh;
+  }
